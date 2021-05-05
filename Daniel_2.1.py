@@ -228,7 +228,9 @@ b_robot_pc = pd.DataFrame(data=b_robot_pc,
 
 plt.figure(figsize=(16,10))
 plt.scatter(b_robot_pc.iloc[:, 0], b_robot_pc.iloc[:, 1])
-plt.show()
+plt.show() #Noch eine Änderung von Johannes
+
+#Änderung Johannes
 
 #%%robot 1 & 2 in Scatter --3 --Kein bezug zu Timestamp
 fig, ax = plt.subplots() 
