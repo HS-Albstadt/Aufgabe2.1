@@ -15,7 +15,9 @@ from sklearn.cluster import KMeans
 import plotly.graph_objects as go # Für andere Dartstellung (Paket erst installieren)
 from plotly.offline import plot #Für andere Darstellung (Paket erst installieren)
 
- # swgfwef
+#das ist ein test
+# swgfwef
+
 
 #%%  daten einladen
 dfb = pd.read_csv(r"D:\Studium\Master\2. Semester SS21\54020 WPM1_Machine Learning\Datensätze\Aufgabe 2\Beispieldatensatz Beckhoff SPS.csv",
@@ -202,7 +204,7 @@ b_bool_warehouse=pd.DataFrame(data=dfb_bool,
 b_bool_visual=pd.DataFrame(data=dfb_bool,
               columns=['Visual.start', 'Visual.Stoplight'], 
               index=dfb_bool.index)
-
+ich 
 #%%PCA: Daten aus Robot Spalten zusammenfassen zu einer Spalte --1
 # Beckhoff Robot
 pca_1 = PCA(n_components=1)
