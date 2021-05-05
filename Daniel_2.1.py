@@ -16,6 +16,8 @@ import plotly.graph_objects as go # Für andere Dartstellung (Paket erst install
 from plotly.offline import plot #Für andere Darstellung (Paket erst installieren)
 
 #das ist ein test
+# swgfwef
+
 
 #%%  daten einladen
 dfb = pd.read_csv(r"D:\Studium\Master\2. Semester SS21\54020 WPM1_Machine Learning\Datensätze\Aufgabe 2\Beispieldatensatz Beckhoff SPS.csv",
